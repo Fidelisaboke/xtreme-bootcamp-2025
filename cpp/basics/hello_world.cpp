@@ -8,6 +8,7 @@
 /**
 * Main function: Entry point of every Cpp program
 * Also known as the driver code: runs objects/functions defined
+* Main is declared as an `int` because it is expected to return an exit code (0 -> success).
  */
 int main() {
     /* Basic variables - Variable declarations*/
@@ -49,4 +50,6 @@ int main() {
     std::cin >> age; // Input from console
     std::cout << "Your age is: " << age << std::endl; // Output to console (value entered from input)
 
+    // Return exit code of 0 (shows that the code executed successfully till the end)
+    return 0;
 }
