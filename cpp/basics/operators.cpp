@@ -70,6 +70,7 @@ int main(){
 
 
     /* Comparison Operators 
+    * - They are boolean expressions in nature.
     * - Compares two values, returning either 1 (true) or 0 (false)
     */
     cout << "\n--- Comparison operators ---" << endl;
