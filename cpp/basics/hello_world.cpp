@@ -21,6 +21,16 @@ int main() {
     long int sample_size; // Long Integer: Same as integer but can store larger values.
     long long int population_size; // Long Long Integer: Long integer but even larger
 
+    /* Data types and their sizes:
+    * char -> 1 byte
+    * bool -> 1 byte
+    * float -> 4 bytes
+    * double -> 8 bytes
+    * int -> 2 or 4 bytes
+    * NOTE: You can use sizeof() to check for the size of a variable in bytes.
+    - Reference: https://www.w3schools.com/cpp/cpp_data_types.asp
+    */
+
     // Variable initializations (after declarations)
     grade = 'A';
     is_complete = false;
