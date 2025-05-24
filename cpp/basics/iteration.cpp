@@ -77,7 +77,7 @@ int main(){
     * - Used to advance to the next iteration
     * - Skips execution of statements that follow the condition that triggers it, going to the next iteration
     */
-        cout << "\n--- Continue statement: ---" << endl;
+    cout << "\n--- Continue statement: ---" << endl;
     for (int i = 0; i < 5; i++){
         if (i == 2) {
             continue; // Skip to the next iteration if i == 2
