@@ -85,5 +85,42 @@ int main(){
         cout << sale << endl;
     }
 
+    /* Retrieving Array Size */
+    cout << "\n--- Array Sizes ---:" << endl;
+
+    // using the sizeof() operator -> returns values in bytes
+    // // size of numbers array: 3 integers * 4 bytes = 12 bytes
+    cout << "Size of numbers array: " << sizeof(numbers) << endl;
+
+    // To find out the number of elements, divide array size by the size of 1st element
+    int numbers_array_length = sizeof(numbers) / sizeof(numbers[0]);
+    cout << "Length of numbers array: " <<  numbers_array_length << endl;
+
+    // Array length can now be used in looping through arrays:
+    cout << "Elements in numbers array:" << endl;
+    for(int i = 0; i < numbers_array_length; i++){
+        cout << numbers[i] << endl;
+    }
+
+    /* Multidimensional Arrays */
+    cout << "\n--- Multidimensional Arrays ---:" << endl;
+
+    // A 2-dimensional array example
+    float grid[3][2] = {
+        {14, 40},
+        {45, 12},
+        {11, 2}
+    };
+
+    // Accessing a value in a multidimensional array
+    cout << "First row, second column: " << grid[0][1] << endl;
+    cout << "Third row, first column: " << grid[2][0] << endl;
+
+    /* 
+    * NOTE: Multidimensional arrays work similar to normal arrays, only that they contain other
+    * arrays within them.
+    * More info: https://www.w3schools.com/cpp/cpp_arrays_multi.asp
+    */
+
     return 0;
 }
