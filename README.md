@@ -26,3 +26,21 @@ cd xtreme-bootcamp-2025
 g++ hello_world.cpp -o hello_world
 ./hello_world
 ```
+
+## Repository Structure
+```bash
+.
+├── README.md
+├── cpp
+│   └── basics
+│       ├── arrays.cpp
+│       ├── conditionals.cpp
+│       ├── enums.cpp
+│       ├── hello_world.cpp
+│       ├── iteration.cpp
+│       ├── operators.cpp
+│       ├── strings.cpp
+│       └── structures.cpp
+└── python
+    └── linked_lists.ipynb
+```
