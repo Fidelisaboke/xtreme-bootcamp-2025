@@ -32,15 +32,61 @@ g++ hello_world.cpp -o hello_world
 .
 ├── README.md
 ├── cpp
-│   └── basics
-│       ├── arrays.cpp
-│       ├── conditionals.cpp
-│       ├── enums.cpp
-│       ├── hello_world.cpp
-│       ├── iteration.cpp
-│       ├── operators.cpp
-│       ├── strings.cpp
-│       └── structures.cpp
+│   ├── basics
+│   │   ├── arrays.cpp
+│   │   ├── conditionals.cpp
+│   │   ├── enums.cpp
+│   │   ├── hello_world.cpp
+│   │   ├── iteration.cpp
+│   │   ├── operators.cpp
+│   │   ├── pointers.cpp
+│   │   ├── references.cpp
+│   │   ├── strings.cpp
+│   │   └── structures.cpp
+│   ├── dsa
+│   │   ├── maps
+│   │   │   └── maps_stl.cpp
+│   │   ├── queues
+│   │   │   ├── deque_stl.cpp
+│   │   │   └── queue_stl.cpp
+│   │   ├── sets
+│   │   │   └── sets_stl.cpp
+│   │   └── stacks
+│   │       ├── stack_basics.cpp
+│   │       └── stack_stl.cpp
+│   ├── file_processing
+│   │   ├── creating_files.cpp
+│   │   ├── output
+│   │   │   └── myfile.txt
+│   │   ├── reading_files.cpp
+│   │   └── samples
+│   │       └── stuff.txt
+│   ├── functions
+│   │   ├── function_basics.cpp
+│   │   ├── lambdas.cpp
+│   │   ├── overloading.cpp
+│   │   └── recursion.cpp
+│   ├── intermediate
+│   │   ├── date_and_time.cpp
+│   │   └── templates.cpp
+│   └── oop
+│       ├── access_specifiers.cpp
+│       ├── class_basics.cpp
+│       ├── class_constructors.cpp
+│       ├── encapsulation.cpp
+│       ├── inheritance.cpp
+│       ├── polymorphism.cpp
+│       └── virtual_methods.cpp
 └── python
     └── linked_lists.ipynb
 ```
+
+## Contributing
+To contribute to improving this repo:
+1. Fork the repository.
+2. Clone your fork to your local machine.
+3. Make your changes and open a pull request.
+
+## Acknowledgements
+I would like to thank the creators of the following resources:
+- [C++ Tutorial - W3Schools](https://www.w3schools.com/cpp/) - For the Cpp tutorials and code snippets.
