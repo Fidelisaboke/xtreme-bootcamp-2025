@@ -6,6 +6,11 @@
 #include <iostream>
 using namespace std;
 
+// Example function that accepts a variable reference as an argument
+void myFunction(int &value) {
+    value++;
+}
+
 int main() {
     int x = 10;
 
@@ -14,6 +19,9 @@ int main() {
 
     // Pointer to the pointer of variable x
     int** ptr2 = &ptr1; // ptr2 stores the address of ptr1 (Pointer of a pointer)
+
+    // Pointer to the pointer of the pointer to variable x
+    int*** ptr3 = &ptr2;
 
     // Checking addresses and values
     cout << "Address of x: " << &x << endl;
@@ -35,6 +43,11 @@ int main() {
     *ptr2 = &y; // *ptr2 == ptr1
     cout << "Value pointed to by ptr1 after modification: " << *ptr1 << endl; // Value of y
     cout << "Value pointed to by the pointer pointed to by ptr2 after modification: " << **ptr2 << endl; // Value of y
+
+    // Example of updating my_num using its reference
+    int my_num = 70;
+    myFunction(my_num);
+    cout << "Value of my_num: " << my_num << "\n";
 
     return 0;
 }
