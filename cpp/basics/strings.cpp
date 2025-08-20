@@ -38,7 +38,7 @@ int main(){
     // User Input Strings
     string address;
     cout << "Enter your address: ";
-    //cin >> address; // Note: cin only stores a single word
+   // cin >> address; // Note: cin only stores a single word
     cout << "Address is: " << address << endl;
 
     // Reading a line of text
