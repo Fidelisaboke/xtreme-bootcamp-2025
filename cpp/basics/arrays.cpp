@@ -84,6 +84,9 @@ int main(){
     for(float sale: sales){
         cout << sale << endl;
     }
+    
+    // Checking size of vector
+    cout << "Vector size: " << sales.size() << "\n";
 
     /* Retrieving Array Size */
     cout << "\n--- Array Sizes ---:" << endl;
